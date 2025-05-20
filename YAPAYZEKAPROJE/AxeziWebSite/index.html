@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Home</title>
+  </head>
+  <link rel="stylesheet" href="style/style.css" />
+
+  <body>
+    
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="img/logo.jpg" alt="logo" . />
+      </a>
+      <nav class="navbar">
+        <a href="index.html" class="active">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="index.html #iletisim">Contact</a>
+        <a href="index.html #hakkımda">Chatbot</a>
+      </nav>
+
+      <div class="buttons">
+        <button id="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </header>
+
+    <section class="Hakkımda">
+      <div class="content">
+        <h3>WELCOME TO AXEZI RESTAURANT!</h3>
+        <p>Learn about our restaurant!</p>
+        <a href="#hakkımda" class="btn">LEARN!</a>
+      </div>
+    </section>
+
+    <section class="bilgiler" id="hakkımda">
+      <h1 class="heading">GET TO KNOW US!</h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <h3>ABOUT US</h3>
+            <p>
+              Axezi is a unique chicken restaurant that has been serving in Kadıköy since 2010.
+Our fried chicken, specially prepared with our original spice blend, has become legendary for its flavor.
+Our Kadıköy branch is one of the most preferred spots in the area with its warm atmosphere and fast service.
+All of our chickens are processed fresh daily and are halal certified.
+Our restaurant offers seating for 60 people, free Wi-Fi, air conditioning, and a children’s play area.
+Food safety and hygiene are our top priorities. All our staff are trained in these matters.
+In addition to our delivery service, you can earn loyalty points through our mobile app.
+We also offer vegetarian options and can accommodate gluten-free requests.
+As Axezi Kadıköy, our mission is to serve delicious food with fast and friendly service.
+We value your feedback. You can contact us through our website or mobile app.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="img/contact.jpg" alt="bilgiler" />
+            <h3>FREQUENTLY ASKED QUESTIONS</h3>
+          </div>
+          <div class="box-bottom">
+            <p>🕐 What are your opening hours?
+We are open every day from 10:00 AM to 10:00 PM.
+📦 Do you offer delivery service?
+Yes, you can place orders through Yemeksepeti and Getir.
+🚗 Do you deliver with your own couriers?
+Yes, we deliver with our own couriers within a 5 km radius.
+💳 What payment methods do you accept?
+We accept cash, credit cards, and contactless payments.
+📱 Do you have a mobile app?
+Yes, our Axezi app is available on the App Store and Google Play.
+🪑 Do you take reservations?
+No, we do not take reservations as we are a fast-service restaurant.
+🥗 Do you have vegetarian options?
+Yes, our salads and some side dishes are vegetarian.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="img/telegramlogo.jpg" alt="bilgiler" />
+            <h3>TELEGRAM CHATBOT</h3>
+          </div>
+          <div class="box-bottom">
+            <p>
+              You can contact us via our Telegram Chatbot for any questions! 
+
+              Click the button below to get in touch!
+            <a href="https://t.me/n8nSMEBot" class="btn">TELEGRAM CHATBOT ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="iletisim" id="iletisim">
+      <h1 class="heading">CONTACT</h1>
+      <div class="row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.5803096793297!2d29.019296075513!3d40.99067002050971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab85d42e43bb9%3A0x6f84bee0365f5f73!2zQ2FmZXJhxJ9hIE1oLiwgUsSxaHTEsW0gQ2QuIDIyQSwgMzQ3MTAgS2FkxLFrw7Z5L8Swc3RhbmJ1bA!5e0!3m2!1str!2str!4v1746890290352!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <form action="gonder.php" method="POST" >
+        <h3>Get in Touch!</h3>
+        <div class="inputBox">
+          <i class="fas fa-user"></i>
+          <input type="text" name="isim2" placeholder="Name Surname" required><br>
+        </div>
+        <div class="inputBox">
+          <i class="fas fa-envelope"></i>
+          <input type="email" name="email2" placeholder="Email" required><br>
+        </div>
+        <div class="inputBox">
+          <i class="fas fa-message"></i>
+          <input type="text" name="mesaj2" placeholder="Your message" required><br>
+        </div>
+        <button type="submit" class="btn">Contact us!</button>
+      </form>
+
+      </div>
+  </section>
+
+  <section class="footer">
+    <div class="search">
+      <input type="text" class="search-input" placeholder="Search"/>
+      <button class="btn btn-primary">Search</button>
+    </div>
+    <div class="share">
+      <a href="#" class="fab fa-facebook"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+      <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="links">
+      <a href="index.html" class="active">Home</a>
+      <a href="ozgecmis.html">About</a>
+      <a href="ilgi.html">Menu</a>
+      <a href="sehrim.html">Products</a>
+      <a href="miras.html">Review</a>
+      <a href="#iletisim">Contact</a>
+      <a href="login.html">Chatbot</a>
+    </div>
+
+    <div class="created">
+      <span>Elif Günaydın</span> tarafından yapıldı. | Tüm hakları saklıdır.
+    </div>
+  </section>
+
+  <script src="js/script.js"></script>
+
+  </body>
+</html>
