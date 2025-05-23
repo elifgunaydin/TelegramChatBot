@@ -1,2 +1,2 @@
 # TelegramChatBot
-#n8n ile geliştirilmiş Telegram üzerinden iletişim kurulan ChatBot ve web site tasarımı
+#n8n developed Telegram communication address ChatBot and website design
